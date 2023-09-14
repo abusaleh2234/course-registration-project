@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#F3F3F3]  ">
+      <div className="bg-[#F3F3F3]  pb-10">
         <div className="container mx-auto">
         <Header></Header>
         <Courses></Courses>
