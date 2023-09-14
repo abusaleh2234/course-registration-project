@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Introduction to OOP Python",
+        "course_img": "https://i.ibb.co/KbBTVjG/Rectangle-2.png",
+        "price": 5000,
+        "details": "This course introduces Python programming. Master the basics, including data structures, loops, functions, and object-oriented concepts.",
+        "credit": 3
+    },
+    {
+        "title": "Introduction to Algorithms",
+        "course_img": "https://i.ibb.co/MBgZ4qB/Rectangle-2-3.png",
+        "price": 10000,
+        "details": "Foundational course exploring algorithm basics. Understand sorting, searching, and basic data structures. Analyze time and space complexity using Big O notation.",
+        "credit": 2
+    },
+    {
+        "title": "Introduction to C Programming",
+        "course_img": "https://i.ibb.co/DRwRgvt/Rectangle-2-2.png",
+        "price": 7000,
+        "details": "Comprehensive introduction to C programming. Covers variables, data types, operators, and fundamental control structures. Ideal for beginners.",
+        "credit": 4
+    },
+    {
+        "title": "Introduction to C++ for DSA",
+        "course_img": "https://i.ibb.co/MB9n7t0/Rectangle-2-4.png",
+        "price": 12000,
+        "details": "Utilize C++ to programming. Learn graphics rendering, game loops, memory management, and multiplayer synchronization.",
+        "credit": 10
+    },
+    {
+        "title": "Basic Data Structures",
+        "course_img": "https://i.ibb.co/xz4NZRK/Rectangle-3.png",
+        "price": 15000,
+        "details": "Introductory course on core data structures: arrays, linked lists, stacks, queues. Understand their implementations and real-world applications.",
+        "credit": 5
+    },
+    {
+        "title": "Software Engineering",
+        "course_img": "https://i.ibb.co/kM0Vnxh/Rectangle-2-5.png",
+        "price": 18000,
+        "details": "Comprehensive overview of the software development process, from requirements to deployment and maintenance.",
+        "credit": 8
+    },
+    {
+        "title": "Database (MySQL)",
+        "course_img": "https://i.ibb.co/Sy5dyZB/Rectangle-2-1.png",
+        "price": 10000,
+        "details": "Master SQL database design. This course covers schema design, normalization, transactions, and complex query formulation.",
+        "credit": 6
+    },
+    {
+        "title": "AWS, Cloud Computing",
+        "course_img": "https://i.ibb.co/cCQWn17/Rectangle-3-1.png",
+        "price": 14000,
+        "details": "Master AWS services, design scalable systems, and prep for the AWS Solutions Architect certification exam.",
+        "credit": 5
+    },
+    {
+        "title": "Problem-Solving Part",
+        "course_img": "https://i.ibb.co/3MLNPGX/Rectangle-2-6.png",
+        "price": 19000,
+        "details": "Grasp core problem-solving strategies. Learn systematic approaches to break down complex challenges effectively.",
+        "credit": 3
+    }
+]
