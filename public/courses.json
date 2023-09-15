@@ -12,7 +12,7 @@
         "title": "Introduction to Algorithms",
         "course_img": "https://i.ibb.co/MBgZ4qB/Rectangle-2-3.png",
         "price": 10000,
-        "details": "Foundational course exploring algorithm basics. Understand sorting, searching, and basic data structures. Analyze time and space complexity using Big O notation.",
+        "details": "Foundational course exploring algorithm basics. Understand sorting, searching, and basic data structures. Analyze time and space using Big O notation.",
         "credit": 2
     },
     {
@@ -36,7 +36,7 @@
         "title": "Basic Data Structures",
         "course_img": "https://i.ibb.co/xz4NZRK/Rectangle-3.png",
         "price": 15000,
-        "details": "Introductory course on core data structures: arrays, linked lists, stacks, queues. Understand their implementations and real-world applications.",
+        "details": "Introductory course on core data structures: arrays, linked lists, stacks, queues. Understand  implementations and real-world applications.",
         "credit": 5
     },
     {

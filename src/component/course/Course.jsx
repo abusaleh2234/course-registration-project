@@ -1,8 +1,8 @@
 import { FiDollarSign,FiBookOpen } from 'react-icons/fi';
 
 import  PropTypes  from "prop-types";
-const Course = ({course}) => {
-    console.log(course)
+const Course = ({course,hendelSelectedCourse}) => {
+    // console.log(course)
     const {course_img, details,price,credit,title} = course; 
     return (
         <div className="bg-white p-3 rounded-lg space-y-4 ">
@@ -21,12 +21,13 @@ const Course = ({course}) => {
                     </div>
                 </div>
             </div>
-            <button className='w-full py-2 font-semibold text-white text-lg rounded-lg bg-[#2F80ED]'>Select</button>
+            <button onClick={()=>hendelSelectedCourse(course)} className='w-full py-2 font-semibold text-white text-lg rounded-lg bg-[#2F80ED]'>Select</button>
         </div>
     );
 };
 
 Course.propTypes ={
-    course:PropTypes.object.isRequired
+    course:PropTypes.object.isRequired,
+    hendelSelectedCourse:PropTypes.func.isRequired
 }
 export default Course;
