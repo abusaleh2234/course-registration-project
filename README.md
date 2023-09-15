@@ -1,8 +1,16 @@
-# React + Vite
+# Q/A
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Project 3 features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- This Project has some programming courses dynamic data in card.
+- This programming course can be select.
+- Names of selected courses are displayed.
+- Selected courses cannot be taken above 20 credits.
+
+##  Discussed My assignment project  how to  managed  the state 
+
+- This project need some data, here use useEffect for hendel asynchronous fake data and  save data  load from infinit data load loop. then this data  store do use useState. then stored data use any where in this function.
+
+
+
