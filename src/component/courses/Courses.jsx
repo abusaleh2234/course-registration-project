@@ -10,7 +10,7 @@ const Courses = () => {
     const [courses,setCourses] = useState([])
     const [selecteds,setSelecteds] =useState([])
     const [newcredit,setCredit] =useState(0)
-    const [remaining, setRemaining] = useState(0)
+    const [remaining, setRemaining] = useState(20)
 
    useEffect(() => {
     fetch("courses.json") 

@@ -5,7 +5,7 @@ const Selectcourses = ({selecteds,newcredit,remaining}) => {
     return (
         <div className="  w-full p-8 space-y-5">
             <div className="border-b-2 pb-6">
-                <h3 className="text-lg	font-bold text-[#2F80ED]">Credit Hour Remaining {remaining || 20} hr</h3>
+                <h3 className="text-lg	font-bold text-[#2F80ED]">Credit Hour Remaining {remaining} hr</h3>
             </div>
            
             <div className="border-b-2">
