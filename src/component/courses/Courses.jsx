@@ -1,3 +1,6 @@
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import { useEffect, useState } from "react";
 import Course from "../course/Course";
 import Selectcourses from "../selectCourse/Selectcourses";
@@ -20,7 +23,7 @@ const Courses = () => {
      const CheckISInclude = selecteds.find(select => select.title == course.title)
      let InititlCredit = course.credit;
     if(CheckISInclude){
-        return alert("this course is alredy selected")
+        return toast("this course is alredy selected")
     }
     else{
         selecteds.forEach(select => {
@@ -29,7 +32,7 @@ const Courses = () => {
         const remainingCredit = 20 - InititlCredit 
 
         if(InititlCredit > 20){
-            return alert("your ceridet is complete")
+            return toast("your ceridet is complete")
         }
 
         setCredit(InititlCredit)

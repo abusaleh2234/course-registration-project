@@ -1,3 +1,7 @@
+import {  ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import { FiDollarSign,FiBookOpen } from 'react-icons/fi';
 
 import  PropTypes  from "prop-types";
@@ -22,6 +26,7 @@ const Course = ({course,hendelSelectedCourse}) => {
                 </div>
             </div>
             <button onClick={()=>hendelSelectedCourse(course)} className='w-full py-2 font-semibold text-white text-lg rounded-lg bg-[#2F80ED]'>Select</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
